@@ -26,3 +26,5 @@ Route::get('servicio/{saleable}', 'Site\SaleableController@detail');
 
 Route::get('portafolio', 'Site\PortfolioController@index');
 Route::get('project/{projectname}', 'Site\PortfolioController@detail');
+
+Route::post('lead', 'Site\GuestController@storeLead');
