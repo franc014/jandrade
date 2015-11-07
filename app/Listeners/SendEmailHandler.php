@@ -1,12 +1,11 @@
-<?php namespace App\Listeners\Events;
+<?php namespace App\Listeners;
 
 use App\Events\EmailHandler;
 
 use App\Events\SendEmail;
-//use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Contracts\Queue\ShouldBeQueued;
 
-class SendEmailHandler implements ShouldBeQueued {
+
+class SendEmailHandler  {
 
 	//use InteractsWithQueue;
 
