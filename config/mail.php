@@ -16,7 +16,7 @@ return [
     */
 
     //'driver' => env('MAIL_DRIVER', 'smtp'),
-    'driver' => 'mandrill',
+    'driver' => 'mailgun',
 
     /*
     |--------------------------------------------------------------------------
@@ -29,8 +29,8 @@ return [
     |
     */
 
-    //'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
-    'host'=>'mailtrap.io',
+    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    //'host'=>'mailtrap.io',
     /*
     |--------------------------------------------------------------------------
     | SMTP Host Port
@@ -42,8 +42,8 @@ return [
     |
     */
 
-    //'port' => env('MAIL_PORT', 587),
-    'port'=>2525,
+    'port' => env('MAIL_PORT', 587),
+    //'port'=>2525,
     /*
     |--------------------------------------------------------------------------
     | Global "From" Address
